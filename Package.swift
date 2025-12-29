@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "WiseAISDK",
     platforms: [
-        .iOS(.v13)  // Your minimum iOS version
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WiseAISDK",
-            url: "https://my_domain.tech/2IN1/WiseAISDK_framework_2.1.1.zip",
-            checksum: "PUT_THE_CHECKSUM_FROM_STEP_1_HERE"
+            url: "https://wiseconsole-demo.wiseai.tech/download/ios/mydid/2IN1/WiseAISDK_framework_2.1.1.zip",
+            checksum: "4cce36c9fed4de59db0c553dfeab9af87e2f109ed6e73a1bad1b90445f4ef730"
         )
     ]
 )
