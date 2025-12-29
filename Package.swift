@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "WiseAISDK",
             url: "https://wiseconsole-demo.wiseai.tech/download/ios/mydid/2IN1/WiseAISDK_framework_2.1.1.zip",
-            checksum: "68506ad7621b5fd897f79360e1426bdad398748dae8025cf6c9c5e2a2507f050"
+            checksum: "eff31dae15851f6429f0476b1fdc7089f4b4bc0763fd20249230343773a16458"
         )
     ]
 )
